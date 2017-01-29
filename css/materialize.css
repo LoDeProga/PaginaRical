@@ -2867,7 +2867,7 @@ ul.staggered-list li {
 
 footer.page-footer {
   padding-top: 20px;
-  background-color: #ee6e73;
+  background-color: #263238;
 }
 
 footer.page-footer .footer-copyright {
@@ -2881,7 +2881,7 @@ footer.page-footer .footer-copyright {
           align-items: center;
   padding: 10px 0px;
   color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(51, 51, 51, 0.08);
+  background-color: #37474f;
 }
 
 table, th, td {
@@ -4004,7 +4004,7 @@ nav ul a span.badge {
 
 nav {
   color: #fff;
-  background-color: #ee6e73;
+  background-color: #263238 ;
   width: 100%;
   height: 56px;
   line-height: 56px;
@@ -4068,6 +4068,7 @@ nav .brand-logo {
   font-size: 2.1rem;
   padding: 0;
   white-space: nowrap;
+  z-index: 1;
 }
 
 nav .brand-logo.center {
@@ -7663,6 +7664,7 @@ input[type=range]:focus::-ms-fill-upper {
   position: relative;
   height: 400px;
   width: 100%;
+  z-index: 0;
 }
 
 .slider.fullscreen {
@@ -7688,6 +7690,7 @@ input[type=range]:focus::-ms-fill-upper {
   background-color: #9e9e9e;
   margin: 0;
   height: 400px;
+  
 }
 
 .slider .slides li {
@@ -7715,6 +7718,7 @@ input[type=range]:focus::-ms-fill-upper {
   left: 15%;
   width: 70%;
   opacity: 0;
+  
 }
 
 .slider .slides li .caption p {
@@ -7732,6 +7736,7 @@ input[type=range]:focus::-ms-fill-upper {
   right: 0;
   bottom: 0;
   margin: 0;
+  z-index: 3;
 }
 
 .slider .indicators .indicator-item {
@@ -7747,14 +7752,14 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: #4CAF50;
+  background-color: #263238;
 }
 
 .carousel {
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 531px;
   -webkit-perspective: 500px;
           perspective: 500px;
   -webkit-transform-style: preserve-3d;
@@ -7811,6 +7816,8 @@ input[type=range]:focus::-ms-fill-upper {
 
 .carousel .carousel-item img {
   width: 100%;
+  height: 100%;
+  
 }
 
 .carousel .indicators {
